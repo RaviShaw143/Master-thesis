@@ -1,0 +1,16 @@
+* A way to represent periodic function using simple building block function e.g. sine and cosine
+* Add a bunch of sine and cosine of higher and higher frequency to build up more complex periodic function 
+    * f is complex periodic function  , Mathematically it is:
+    * Series has discrete values where an is amplitude of sine and bn is amplitude of cosine and it changes depending on 'n'
+
+
+
+
+*  Fourier transform: Going from discrete values of equally spaced to continuous frequency spectrum
+* So in layman terms, when we say Fourier series it means we are talking about periodic function and its a function that has spectrum which is discrete 
+*  where as Fourier transform it means we are talking about non periodic function and spectrum of its is continuous 
+    * so we denote Fourier series as f(x) and its transform as F(k)
+        * F(k) =FT(f(x))
+* Sample rate : number of samples in one seconds if the sampling rate is 44100 means 44100 samples taken in one second which is same as sampling frequency.
+* nyquist frequency: half of the sampling rate of discrete signal processing system.
+    * minimal rate at which a signal can be sampled without introducing errors
