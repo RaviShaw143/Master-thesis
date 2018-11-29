@@ -1,0 +1,1 @@
+In this folder I intend to upload relevant findings when designing the Model for Sentiment Analysis.
