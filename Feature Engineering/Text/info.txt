@@ -1,0 +1,1 @@
+In this folder I intend to keep relvant information related to text features extraction
