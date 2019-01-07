@@ -1,0 +1,42 @@
+# Tuning NuSVC model hyper-parameters for precision
+
+Best parameters set for NuSVC model found on development set:
+
+{'nu': 0.1, 'gamma': 0.001}
+
+
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+       -1.0       0.46      0.71      0.56        24
+        0.0       0.00      0.00      0.00        17
+        1.0       0.20      0.23      0.21        13
+
+avg / total       0.25      0.37      0.30        54
+
+
+# Tuning NuSVC model hyper-parameters for recall
+
+Best parameters set for NuSVC model found on development set:
+
+{'nu': 0.1, 'gamma': 0.001}
+
+
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+       -1.0       0.46      0.71      0.56        24
+        0.0       0.00      0.00      0.00        17
+        1.0       0.20      0.23      0.21        13
+
+avg / total       0.25      0.37      0.30        54

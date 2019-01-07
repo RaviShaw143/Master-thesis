@@ -1,0 +1,42 @@
+# Tuning LinearSVC model hyper-parameters for precision
+
+Best parameters set for LinearSVC model found on development set:
+
+{'multi_class': 'crammer_singer', 'dual': False, 'C': 1}
+
+
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+       -1.0       0.82      0.58      0.68        24
+        0.0       0.37      0.41      0.39        17
+        1.0       0.28      0.38      0.32        13
+
+avg / total       0.55      0.48      0.50        54
+
+
+# Tuning LinearSVC model hyper-parameters for recall
+
+Best parameters set for LinearSVC model found on development set:
+
+{'multi_class': 'crammer_singer', 'dual': False, 'C': 1}
+
+
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+       -1.0       0.82      0.58      0.68        24
+        0.0       0.37      0.41      0.39        17
+        1.0       0.28      0.38      0.32        13
+
+avg / total       0.55      0.48      0.50        54

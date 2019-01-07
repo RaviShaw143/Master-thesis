@@ -1,0 +1,42 @@
+# Tuning SVC model hyper-parameters for precision
+
+Best parameters set for SVC model found on development set:
+
+{'kernel': 'linear', 'C': 0.01, 'gamma': 0.01}
+
+
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+       -1.0       0.76      0.79      0.78        24
+        0.0       0.50      0.35      0.41        17
+        1.0       0.24      0.31      0.27        13
+
+avg / total       0.55      0.54      0.54        54
+
+
+# Tuning SVC model hyper-parameters for recall
+
+Best parameters set for SVC model found on development set:
+
+{'kernel': 'linear', 'C': 0.01, 'gamma': 0.01}
+
+
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+       -1.0       0.76      0.79      0.78        24
+        0.0       0.50      0.35      0.41        17
+        1.0       0.24      0.31      0.27        13
+
+avg / total       0.55      0.54      0.54        54
